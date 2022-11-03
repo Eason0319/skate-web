@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before,*after{
+    box-sizing:inherit;
+}
+body{   
+    font-family: Arial;
+    background-color: #edebdc;
+}
+.imformation{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #edebdc;
+}
+.front-page{
+    margin-left: 735px;
+    max-height: 50px;
+    max-width: 50px;
+    margin-top: 35px;
+}
+.title{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 95px;
+    height: 50px;
+    display: flex;
+    background-color: #edebdc;
+}
+.sec-banner{
+    font-size: 50px;
+    margin-top: 55px;
+    margin-left: 135px;
+    color: #303643;
+    font-weight: bolder;
+    font-family: "Russo One";
+    width: 300px;
+    white-space: nowrap;
+}
+.nav{
+    margin-top: 160px;
+}
+.list{
+    display: flex;
+    background-color: #303643;
+    margin-left: 137px;
+    padding: 10px;
+    margin-right: 120px;
+}
+.list-item-first{
+    display: block;
+    list-style: none;
+    margin-left: 223px;
+    margin-right: 200px;
+    font-size: large;
+    font-weight: bolder;
+}
+.list-item{
+    display: block;
+    list-style: none;
+    margin-left: -77px;
+    margin-right: 200px;
+    font-size: large;
+    font-weight: bolder;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 60px;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #303643;
+    margin-top: 100px;
+}
+.footer p{
+    color: #edebdc;
+    /* letter-spacing: normal; */
+    white-space: nowrap;
+}
+.content1, .content2, .content3{
+    margin-left: 135px;
+    box-sizing: border-box;
+    flex-direction: row;
+    display: flex;
+}
+.content3{
+    margin-top: 0;
+}
+.vid1{
+    margin-top: 35px;
+}
+.vid2{
+    margin-bottom: 15px;
+}
+.introduce1 {
+    max-width: 557px;
+    height: 410px;
+    margin-left: 25px;
+    border: 10px;
+    margin-top: 15px;
+}
+.introduce3{
+    max-width: 557px;
+    height: 410px;
+    margin-left: 25px;
+    border: 10px;
+    margin-top: -20px;
+}
+.introduce2{
+    width: 600px;
+    height: 410px;
+    margin-left: 0;
+    border: 10px;
+    margin-top: -20px;
+    margin-right: 25px;
+}
+.intro1, .intro2, .intro3{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d1cbc2;
+    color: #303643;
+    line-height: 1.5;
+    padding: 15px;
+}
+.intro1{
+    padding-bottom: 160px;
+}
+.intro2{
+    padding-bottom: 130px;
+}
+.intro3{
+    padding-bottom: 160px;
+}
+.ollie, .kick, .flip{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+    background-color: #d1cbc2;
+    color: #303643;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-family: "Russo One";
+}
